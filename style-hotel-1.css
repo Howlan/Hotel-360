@@ -1,0 +1,114 @@
+.border{
+	box-shadow: 2px 5px .1
+}
+.check-in,.check-out{
+	text-align: center;
+	display: inline-block;
+	width: 40%;
+	overflow: hidden;
+}
+.check-in p, .check-out p{
+	text-align: center;
+	letter-spacing: .3rem;
+	text-transform: uppercase;
+}
+.check-in input, .check-out input{
+	border: 1px solid blue;
+	border-radius: 1.5rem;
+}
+input[type="date"]{
+	text-align: center;
+}
+.image{
+	display: block;
+	position: relative;
+	background-image: url(images/hotel-1.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 40vh;
+	object-fit: cover;
+	opacity: .7
+}
+.image-2{
+	display: block;
+	position: relative;
+	background-image: url(images/hotel-2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 40vh;
+	object-fit: cover;
+	opacity: .7
+}
+.image p{
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 1.5rem;
+	letter-spacing: .1rem;
+	position: absolute;
+	bottom: 0;
+	left: 1rem;
+}
+.room-availability{
+	margin:2rem 1rem;
+	text-align: center;
+}
+.room-availability .title{
+	text-align: center;
+	letter-spacing: .1rem;
+	font-weight: lighter;
+  font-size: 1.5rem;
+}
+.rating{
+	margin:2rem 1rem;
+	text-align: center;
+}
+.rating-title{
+	text-align: center;
+	letter-spacing: .1rem;
+	font-weight: lighter;
+  font-size: 1.5rem;
+}
+.progress{
+	height: 0.5rem;
+	margin: .7rem;
+}
+.other-facilities{
+	margin:2rem 1rem;
+	text-align: center;
+}
+.other-title{
+	text-align: center;
+	letter-spacing: .1rem;
+	font-weight: lighter;
+  font-size: 1.5rem;
+}
+#room-images{
+	width:100%;
+	display: block;
+	object-fit: cover;
+}
+input[type="button"]{
+	position: relative;
+	background-color: red;
+	color: aliceblue;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	border-radius: 1rem;
+	padding: .5rem 1.5rem;
+	margin-top: 1rem;
+	left:50%;
+	transform: translateX(-50%);
+}
+#room-images{
+	display: block;
+	width: 100%;
+	height: 70vh;
+	object-fit: cover;
+	object-position: center;
+}
+
+
+
+
